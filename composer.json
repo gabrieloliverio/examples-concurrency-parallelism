@@ -1,0 +1,31 @@
+{
+    "name": "luiznoronha/revoltrun",
+    "autoload": {
+        "psr-4": {
+            "Luiznoronha\\Revoltrun\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luiz Noronha",
+            "email": "l.noronha@global.leaseweb.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/amphp/mysql"
+        }
+    ],
+    "require": {
+        "revolt/event-loop": "^1.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "amphp/amp": "^3.0",
+        "amphp/mysql": "3.x-dev",
+        "amphp/http-client": "5.x-dev",
+        "react/http": "1.9",
+        "react/async": "^4.1",
+        "react/promise-timer": "^1.10"
+    },
+    "minimum-stability": "dev"
+}
